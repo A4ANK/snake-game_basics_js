@@ -10,10 +10,10 @@ function init(){
     score = 0;
     //creating food object from the image.
     food_img =  new Image();
-    food_img.src = "assests/apple.png"
+    food_img.src = "assets/gem.svg"
 
     trophy = new Image();
-    trophy.src = "assests/trophy.png"
+    trophy.src = "assets/trophy.png"
 
     food = getRandomFood();
     game_over = false;
